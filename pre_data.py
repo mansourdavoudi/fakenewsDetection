@@ -26,7 +26,7 @@ def build_model():
     model.compile(optimizer='rmsprop', loss='binary_crossentropy', metrics=['accuracy'])
     return model
 
-def create_dataset(fx,tx,step):
+def createee_dataset(fx,tx,step):
   Xs, ys = [], []
   lst = fx.shape[0] + tx.shape[0]
   f_index=0
